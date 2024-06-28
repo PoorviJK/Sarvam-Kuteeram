@@ -1,0 +1,414 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* General font */
+    background-color: #fdf6e3; /* Light background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #8B0000; /* Main header background color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Padding for header */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Shadow for header */
+}
+
+/* Container for Header Content */
+.container {
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center align items vertically */
+    max-width: 1200px; /* Max width of the container */
+    margin: 0 auto; /* Center align container */
+    padding: 0 20px; /* Padding inside container */
+}
+
+
+/* Logo Image */
+.logo img {
+    height: 60px; /* Height of the logo image */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between each menu item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    font-size: 16px; /* Font size */
+    padding: 10px 15px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #8B0000; /* Background color on hover */
+}
+
+/* Indian Themed Customizations */
+/* Background Image for Header */
+header {
+    background-image: url('header-bg.png'); /* Add traditional pattern background */
+    background-size: cover; /* Cover entire header */
+}
+
+/* Custom Font for Navigation Links */
+nav ul li a {
+    font-family: 'Kokila', serif; /* Traditional Indian font */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Hover Effect for Navigation Links */
+nav ul li a:hover {
+    background-color: #ffab91; /* Lighter shade for hover effect */
+}
+
+/* Increased Height for Logo Image */
+.logo img {
+    height: 80px; /* Increased height of the logo image */
+}
+/* Hero Section Styles */
+.hero {
+    background-image: url('Untitled Project.png'); /* Background image for hero section */
+    background-size: cover; /* Cover entire section */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    position: relative; /* Relative positioning for content placement */
+}
+
+.hero::after {
+    content: 'Designed by Poorvi J Kashyap Age 13';
+    position: absolute;
+    bottom: 20px; /* Adjust vertical position */
+    right: 20px; /* Adjust horizontal position */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+}
+/* Hero Content */
+.hero-content {
+    max-width: 600px; /* Max width of content */
+    padding: 20px; /* Padding for content */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Main Heading in Hero Section */
+.hero h1 {
+    font-size: 48px; /* Font size for main heading */
+    margin: 0 0 20px; /* Margin for spacing */
+    font-family: 'Kokila', serif; /* Traditional Indian font */
+}
+
+/* Subheading in Hero Section */
+.hero p {
+    font-size: 24px; /* Font size for subheading */
+    margin: 0 0 20px; /* Margin for spacing */
+    font-family: 'Kokila', serif; /* Traditional Indian font */
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    text-decoration: none; /* Remove underline from link */
+    color: white; /* Text color */
+    background-color: #8B0000; /* Button background color */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 18px; /* Font size for button text */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect for Call-to-Action Button */
+.cta-button:hover {
+    background-color: #ffab91; /* Lighter shade for hover effect */
+}
+/* Styles for About Us Section */
+#about {
+    background-color: #8d1f1f; /* Background color for about section */
+    padding: 80px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.section-content {
+    max-width: 800px; /* Max width of content */
+    margin: 0 auto; /* Center align content */
+}
+
+.about-content {
+    text-align: left; /* Left align text */
+    margin-top: 40px; /* Top margin for content */
+}
+
+.about-content p {
+    margin-bottom: 20px; /* Bottom margin for paragraphs */
+    line-height: 1.6; /* Line height for readability */
+    text-size-adjust: 20px;
+}
+/* Programs section styles */
+.programmes-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.sub-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    background-color: #8d1f1f;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.box p {
+    margin: 10px 0 0;
+    color: #ffffff;
+}
+/* Styles for Features Section */
+#features {
+    background-color: #8d1f1f; /* Background color for features section */
+    padding: 80px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 40px; /* Bottom margin between features */
+}
+
+.feature-icon {
+    width: 100px; /* Icon width */
+}
+
+.feature-icon img {
+    max-width: 100%; /* Ensure icons are responsive */
+}
+
+.feature-details {
+    max-width: 600px; /* Max width for feature details */
+    text-align: left; /* Left align text */
+}
+
+.feature-details h3 {
+    font-size: 24px; /* Font size for feature headings */
+    margin-bottom: 10px; /* Bottom margin for headings */
+    color: #fcfcfc;
+}
+
+.feature-details p {
+    font-size: 16px; /* Font size for feature descriptions */
+    line-height: 1.6; /* Line height for readability */
+    color: #ffffff; /* Text color */
+}
+/* Styles for Gallery Section */
+#gallery {
+    padding: 80px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+    background-color: #8B0000;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid columns */
+    gap: 20px; /* Gap between gallery items */
+    justify-items: center; /* Center align items */
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px; /* Rounded corners for images/videos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.gallery-item img,
+.gallery-item video {
+    width: 100%; /* Ensure media fills their containers */
+    vertical-align: middle; /* Align media vertically */
+}
+
+.gallery-item video {
+    max-height: 100%; /* Ensure videos maintain aspect ratio */
+}
+
+.gallery-item img:hover,
+.gallery-item video:hover {
+    transform: scale(1.1); /* Scale up media on hover */
+}
+/* Styles for Contact Section */
+#contact {
+    background-color:#ffab91; /* Background color for contact section */
+    padding: 80px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Gap between contact items */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.contact-item {
+    max-width: 250px; /* Max width for contact items */
+}
+
+.contact-item h3 {
+    font-size: 24px; /* Font size for contact item headings */
+    margin-bottom: 10px; /* Bottom margin for headings */
+}
+
+.contact-item img {
+    max-width: 100%; /* Ensure QR codes fit their containers */
+    margin-bottom: 10px; /* Bottom margin for QR codes */
+}
+
+.contact-item p {
+    font-size: 16px; /* Font size for contact item details */
+    line-height: 1.6; /* Line height for readability */
+    color: #555; /* Text color */
+}
+/* Styles for Created By Section */
+#created-by {
+    background-color: #ffab91; /* Background color for created by section */
+    padding: 80px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.creator-info {
+    max-width: 600px; /* Max width for creator info */
+    margin: 0 auto; /* Center align the container */
+    text-align: left; /* Left align text within the container */
+    font-size: 16px; /* Font size for creator info */
+    line-height: 1.6; /* Line height for readability */
+    color: #333; /* Text color */
+}
+
+.creator-info p {
+    margin-bottom: 15px; /* Bottom margin for paragraphs */
+}
+
+.creator-info strong {
+    font-weight: bold; /* Bold text for labels */
+}
+
+.creator-info a {
+    color: #000000; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.creator-info a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+/* Footer Section Styles */
+footer {
+    background-color: #333; /* Background color for footer */
+    color: #fff; /* Text color for footer */
+    padding: 40px 0; /* Padding top and bottom */
+    font-size: 14px; /* Font size for footer text */
+}
+
+.footer-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    max-width: 1200px; /* Max width for footer content */
+    margin: 0 auto; /* Center align the footer content */
+}
+
+.footer-section {
+    flex: 1; /* Each section takes equal space */
+    min-width: 250px; /* Minimum width for each section */
+    margin: 20px; /* Margin around each section */
+}
+
+.footer-section h3 {
+    font-size: 18px; /* Font size for section headings */
+    margin-bottom: 15px; /* Bottom margin for headings */
+}
+
+.footer-section p, .footer-section a, .footer-section ul {
+    margin-bottom: 10px; /* Bottom margin for paragraphs, links, and lists */
+}
+
+.footer-section a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-section a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.footer-section ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove padding from list */
+}
+
+.footer-section ul li {
+    margin-bottom: 10px; /* Bottom margin for list items */
+}
+
+.footer-section ul li a {
+    color: #ffffff; /* Link color for list items */
+}
+
+.footer-bottom {
+    background-color: #222; /* Background color for footer bottom */
+    color: #fff; /* Text color for footer bottom */
+    text-align: center; /* Center align text */
+    padding: 10px 0; /* Padding top and bottom */
+    margin-top: 20px; /* Top margin */
+}
+
+.footer-bottom p {
+    margin: 0; /* Remove default margin */
+}
+
+.footer-section .fas {
+    margin-right: 10px; /* Right margin for icons */
+}
+
